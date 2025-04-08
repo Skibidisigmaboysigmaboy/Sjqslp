@@ -1,4 +1,4 @@
-getgenv().namehub = "Frostware"
+getgenv().namehub = "KAIRO"
 local UserInputService = game:GetService('UserInputService')
 local LocalPlayer = game:GetService('Players').LocalPlayer
 local TweenService = game:GetService('TweenService')
@@ -18,8 +18,8 @@ local Library = {
     start_position = nil;
 }
 
-if isfolder("Frostware") then
-    delfolder("Frostware")
+if isfolder("KAIRO") then
+    delfolder("KAIRO")
 end
 
 function Library:disconnect()
